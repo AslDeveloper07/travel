@@ -2,7 +2,7 @@
 const Testamonials = () => {
   return (
     <div>
-
+      testamonials
     </div>
   )
 }

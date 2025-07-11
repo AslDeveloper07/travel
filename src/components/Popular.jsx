@@ -2,7 +2,7 @@
 const Popular = () => {
   return (
     <div>
-
+popular
     </div>
   )
 }

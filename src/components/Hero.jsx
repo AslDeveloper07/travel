@@ -1,9 +1,11 @@
 
 const Hero = () => {
   return (
-    <div>
-
+    <main className="Hero">
+      <div className=" container">
+      
     </div>
+    </main>
   )
 }
 

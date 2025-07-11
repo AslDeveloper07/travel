@@ -1,0 +1,43 @@
+
+/* Navbar start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Geist", sans-serif;
+  padding: 10px;
+  /* background-color: red; */
+}
+.navLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.navLogo img{
+  width: 27px;
+}
+.navLogo span{
+  font-size: 20px;
+  font-weight: 700;
+}
+.NavItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.NavList {
+  display: flex;
+  gap: 1.3rem;
+  list-style: none;
+}
+/* Navbar end */
+
+.Hero{
+  /* background-color: palevioletred; */
+  height: 600px;
+  background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.3) 100%), url(./../assets/img/hero\ .avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+

@@ -1,9 +1,12 @@
 
+import './UI.css'
 const Button = () => {
   return (
-    <div>
 
-    </div>
+    <button className="btn">
+
+Book Now
+    </button>
   )
 }
 
