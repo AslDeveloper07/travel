@@ -1,3 +1,4 @@
+import Button from "./UI/Button";
 
 const Hero = () => {
   return (
@@ -5,15 +6,18 @@ const Hero = () => {
       <div className="HeroPage container">
         <h1>Discover the World's Most Amazing Places</h1>
         <p>
-          Experience unforgettable journeys to breathtaking destinations. Let us take care of your travel dreams.
+          Experience unforgettable journeys to breathtaking destinations. Let us
+          take care of your travel dreams.
         </p>
-        <div>
-          <button>Explore Destinations</button>
-          <button>Learn More</button>
-        </div>
-    </div>
-    </main>
-  )
-}
+        <div className="btnDiv">
 
-export default Hero
+          <button className="expBtn">Explore Destinations</button>
+          <button className="LearnBtn">Learn More</button>
+
+        </div>
+      </div>
+    </main>
+  );
+};
+
+export default Hero;

@@ -1,13 +1,6 @@
+import "./UI.css";
+export const Button = ({ name }) => {
+  return <button className="btn">{(name )}</button>;
+};
 
-import './UI.css'
-const Button = () => {
-  return (
-
-    <button className="btn">
-
-Book Now
-    </button>
-  )
-}
-
-export default Button
+export default Button;
