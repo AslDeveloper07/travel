@@ -293,7 +293,7 @@
 }
 .usernameText {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.9rem;
   align-items: center;
 }
 .about {
