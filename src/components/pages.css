@@ -1,15 +1,23 @@
 /* Navbar start */
-.navbar {
-  display: flex;
+.header {
+  width: 100%;
+  background: #ffffffb2;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  z-index: 2;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+}
+.navbar {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Geist", sans-serif;
-  padding: 10px;
-  background-color: white;
+  padding: 10px 0;
+  background-color: transparent;
+  z-index: 2000000;
 }
 .navLogo {
   display: flex;
@@ -85,6 +93,7 @@
   font-size: 14px;
   cursor: pointer;
 }
+
 .LearnBtn {
   background-color: rgba(231, 231, 231, 0.26);
   color: white;
@@ -129,12 +138,15 @@
   flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 50px;
+
 }
 .cards {
   width: auto;
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid #33333317;
+
+
 }
 .cards .relative {
   position: relative;

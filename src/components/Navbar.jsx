@@ -7,7 +7,8 @@ import './pages.css'
 
 const Navbar = () => {
   return (
-    <nav className="navbar container">
+    <header className="header">
+      <nav className="navbar container">
       <div className="navLogo">
         <img src={Logo} alt="this is logo" />
       <span>TravelWorld </span>
@@ -24,6 +25,7 @@ const Navbar = () => {
         <Button name={"Book Now"}/>
       </div>
     </nav>
+    </header>
   )
 }
 

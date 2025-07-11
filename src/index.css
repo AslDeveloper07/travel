@@ -7,9 +7,11 @@
   box-sizing: border-box;
   font-family: 'Geist' sans-serif;
 }
-
+body{
+  width: 100%;
+}
 .container{
-  /* width: 100%; */
+  width: 100%;
   max-width: 1400px;
   margin:  0 auto;
 }
