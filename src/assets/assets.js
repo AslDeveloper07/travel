@@ -1,0 +1,7 @@
+export {default as  Hero} from './img/hero .avif'
+export {default as  Card1} from './img/card1.avif'
+export {default as  Card2} from './img/card2.avif'
+export {default as  Card3} from './img/card3.avif'
+export {default as  Card4} from './img/card4.avif'
+export {default as  Card5} from './img/card5.avif'
+export {default as  Card6} from './img/card6.avif' 
