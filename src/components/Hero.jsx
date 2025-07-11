@@ -10,12 +10,8 @@ const Hero = () => {
           take care of your travel dreams.
         </p>
         <div className="btnDiv">
-
-
-          <button className="expBtn">Explore Destinations</button>
-          <button className="LearnBtn">Learn More</button>
-
-          <Button name={"salom"} style={{"ba"}} />
+          <Button name="Explore Destinations" className="expBtn" />
+          <Button name="Learn More" className="LearnBtn" />
         </div>
       </div>
     </main>

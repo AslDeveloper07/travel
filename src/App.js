@@ -12,10 +12,10 @@ return(
   <>
   <Navbar/>
   <Hero/>
-  {/* <Testamonials/>
   <Popular/>
   <Services/>
-  <Travelers/> */}
+  <Testamonials/>
+  {/* <Travelers/> */}
   </>
 )
 
