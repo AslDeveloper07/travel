@@ -1,6 +1,6 @@
 import "./UI.css";
-export const Button = ({ name }) => {
-  return <button className="btn">{(name )}</button>;
+export const Button = ({ name, style }) => {
+  return <button className="btn" style={style}>{(name )}</button>;
 };
 
 export default Button;

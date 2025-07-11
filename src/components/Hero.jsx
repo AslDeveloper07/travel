@@ -11,9 +11,11 @@ const Hero = () => {
         </p>
         <div className="btnDiv">
 
+
           <button className="expBtn">Explore Destinations</button>
           <button className="LearnBtn">Learn More</button>
 
+          <Button name={"salom"} style={{"ba"}} />
         </div>
       </div>
     </main>
