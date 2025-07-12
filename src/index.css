@@ -1,29 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Geist' sans-serif;
+  font-family: "Geist" sans-serif;
 }
-body{
+body {
   width: 100%;
 }
-.container{
+.container {
   width: 100%;
   max-width: 1400px;
-  margin:  0 auto;
-
+  margin: 0 auto;
 }
-@media screen and ( max-width: 768px) {
-  .container{
-  width: 100%;
-  max-width: 370px;
-  margin:  0 10px;
-
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 370px;
+    margin: 0 10px;
+  }
 }
-}
-button{
+button {
   cursor: pointer;
 }
+
+/* search bar start */
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(255, 205, 205); */
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px -7px rgba(34, 60, 80, 0.23);
+  font-family: "Geist", sans-serif;
+  position: relative;
+  top: -30px;
+  height: 130px;
+}
+@media screen and (max-width: 768px) {
+  .searchBar {
+    flex-direction: column;
+    height: fit-content;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    top: -40px;
+    padding: 30px 10px;
+  }
+}
+
+.searchGroup {
+  display: flex;
+  flex-direction: column;
+}
+.inputWrapper {
+  /* height: 40px; */
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: white;
+  padding: 5px 9px;
+  border-radius: 5px;
+  margin-top: 4px;
+  border: 1px solid #3333331a;
+}
+@media screen and (max-width: 768px) {
+  .inputWrapper {
+    width: 138%;
+  }
+}
+.label {
+  font-size: 14px;
+}
+.inpust {
+  height: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 6px;
+  color: black;
+}
+
+
+.inpust::placeholder {
+  padding: 3px;
+  font-size: 15px;
+}
+.inpust:focus {
+  border: none;
+  background-color: rgba(240, 248, 255, 0);
+}
+.seacbtn {
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 30%;
+}
+@media screen and (max-width: 768px) {
+  .seacbtn {
+    width: 100%;
+  }
+}
+.burger{
+  font-size: 25px;
+  margin-top: 2px;
+}
+/* Search bars end */

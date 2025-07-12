@@ -3,6 +3,7 @@ import { NavItem } from "./data"
 import Button from "./UI/Button"
 
 import './pages.css'
+import { AiOutlineMenu } from "react-icons/ai"
 
 
 const Navbar = () => {
@@ -23,6 +24,9 @@ const Navbar = () => {
           }
         </ul>
         <Button name={"Book Now"}/>
+      </div>
+      <div className="burger hidden">
+       <AiOutlineMenu />
       </div>
     </nav>
     </header>

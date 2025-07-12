@@ -70,7 +70,7 @@
 }
 @media screen and ( max-width: 768px) {
 .Hero{
-height: 480px;
+height: 520px;
 
 }
 }
@@ -121,9 +121,18 @@ height: 480px;
   border: none;
   border-radius: 6px;
   padding: 14px 30px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
 }
+
+@media screen and ( max-width: 768px) {
+
+  .expBtn,
+  .LearnBtn {
+    font-size: 15px;
+  }
+}
+
 
 .LearnBtn {
   background-color: rgba(231, 231, 231, 0.26);
@@ -132,9 +141,17 @@ height: 480px;
   border: 1px solid white;
   border-radius: 6px;
   padding: 14px 35px;
-  font-size: 14px;
+  font-size: 16px;
   transition: 0.3s ease;
 }
+@media screen and ( max-width: 768px) {
+   .LearnBtn {
+    font-size: 15px;
+  padding: 11px 35px;
+
+  }
+}
+
 .LearnBtn:hover {
   background-color: rgba(231, 231, 231, 0.329);
   cursor: pointer;
@@ -159,7 +176,12 @@ height: 480px;
   text-align: center;
   margin: 5rem 0 3rem 0;
 }
+@media screen and ( max-width: 768px) {
+.text {
+  margin: 1.5rem 0 3rem 0;
+}
 
+}
 .card_text {
   font-size: 45px;
 }

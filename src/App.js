@@ -14,12 +14,12 @@ return(
   <>
   <Navbar/>
   <Hero/>
+  <Travelers/>
   <Popular/>
   <Services/>
   <Testamonials/>
   <Advinture/>
   <Footer/>
-  <Travelers/>
   </>
 )
 
