@@ -155,3 +155,24 @@ export const footerData = [
     foot2: `Email: info@travelworld.com Phone: +1 (555) 123-4567`,
   },
 ];
+
+
+
+
+export const travel = [
+  {
+    label: "Destination",
+    placeholder: "Where to go?",
+    srchIcon: <LuMap />,
+  },
+  {
+    label: "Check In",
+    placeholder: "Add date",
+    srchIcon: <IoIosCalendar />,
+  },
+  {
+    label: "Check Out",
+    placeholder: "Add date",
+    srchIcon: <IoIosCalendar />,
+  },
+];

@@ -19,10 +19,13 @@ return(
   <Testamonials/>
   <Advinture/>
   <Footer/>
-  {/* <Travelers/> */}
+  <Travelers/>
   </>
 )
 
 }
 
 export default App;
+
+
+
