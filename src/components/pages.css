@@ -401,7 +401,7 @@ flex-direction: column;
 @media screen and ( max-width: 768px) {
 .Test_container {
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
   justify-content: center;
 }
 }
